@@ -1,0 +1,4 @@
+tests_output
+reports
+node_modules
+*-debug.log

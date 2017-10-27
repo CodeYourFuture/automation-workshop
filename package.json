@@ -1,0 +1,18 @@
+{
+  "name": "e2e_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch --config nightwatch.conf.js",
+    "postinstall": "node nightwatch.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.16"
+  },
+  "devDependencies": {
+    "selenium-download": "^2.0.10"
+  }
+}
